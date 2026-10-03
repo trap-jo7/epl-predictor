@@ -46,3 +46,4 @@ Known limits: the Fantasy API has no shirt numbers or formations, so numbers are
 
 ## Next steps
 Export model ratings to JSON for the site, add expected-goals data, calibrate probabilities (`CalibratedClassifierCV`), add an injury source.
+# epl-predictor
