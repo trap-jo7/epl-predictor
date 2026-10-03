@@ -1,0 +1,23 @@
+{
+  "best": "elo_logreg",
+  "demo": false,
+  "elo_logreg": {
+    "cv_log_loss": 0.9703508292732096,
+    "test_accuracy": 0.4631578947368421,
+    "test_log_loss": 1.0383469030693009,
+    "test_brier": 0.6266338519521307
+  },
+  "random_forest": {
+    "cv_log_loss": 0.984834975936773,
+    "test_accuracy": 0.4710526315789474,
+    "test_log_loss": 1.0427335431163427,
+    "test_brier": 0.6288469519779171
+  },
+  "xgboost": {
+    "cv_log_loss": 1.0132708072662353,
+    "test_accuracy": 0.4789473684210526,
+    "test_log_loss": 1.0531115531921387,
+    "test_brier": 0.6350743456770797
+  },
+  "always_home_accuracy": 0.4131578947368421
+}
