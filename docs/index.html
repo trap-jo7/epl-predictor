@@ -5,16 +5,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0c0a1f;--t:#f2f1fa;--m:#a9a7c4;--g:rgba(255,255,255,.07);--b:rgba(255,255,255,.14);--ac:#8b7bff;--ac2:#38e1c0;--hot:#ff6fae;--r:24px;--e:cubic-bezier(.2,.8,.2,1)}
+:root{--bg:#0d0f12;--t:#f2f1fa;--m:#a9a7c4;--g:rgba(255,255,255,.07);--b:rgba(255,255,255,.14);--ac:#8b7bff;--ac2:#38e1c0;--hot:#ff6fae;--r:24px;--e:cubic-bezier(.2,.8,.2,1)}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{font:16px/1.6 Geist,Inter,system-ui,sans-serif;color:var(--t);background:var(--bg);min-height:100vh;overflow-x:hidden;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
-.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 50% at 15% 10%,#4b2fd6 0,transparent 70%),radial-gradient(50% 45% at 90% 20%,#0e8f86 0,transparent 70%),radial-gradient(55% 50% at 60% 100%,#b02a73 0,transparent 70%),linear-gradient(160deg,#120d33,#0a0a1c);background-size:140% 140%;animation:drift 18s ease-in-out infinite alternate}
-@keyframes drift{to{background-position:100% 80%}}
+.bg{position:fixed;inset:0;z-index:-1;background:var(--bg)}
 .wrap{max-width:1200px;margin:auto;padding:0 20px}
 .glass{background:var(--g);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid var(--b);border-radius:var(--r);box-shadow:0 8px 32px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.12)}
 nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(1100px,calc(100% - 24px));z-index:10;display:flex;align-items:center;gap:10px;padding:10px 12px 10px 20px;border-radius:999px;transition:padding .3s,background .3s}
-nav.s{padding-block:6px;background:rgba(20,16,50,.6)}
+nav.s{padding-block:6px;background:rgba(13,15,18,.85)}
 nav b{font-size:18px;letter-spacing:-.03em;margin-right:auto}
 nav a.l{color:var(--m);text-decoration:none;font-size:14px;padding:7px 13px;border-radius:999px;transition:.25s}
 nav a.l:hover,nav a.l.on{color:var(--t);background:rgba(255,255,255,.12)}
